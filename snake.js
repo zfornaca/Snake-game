@@ -243,19 +243,19 @@ const snake2 = new Snake(
   'blue'
 );
 
-const snake3 = new Snake(
-  { f: 'left', h: 'right', t: 'up', g: 'down' },
-  new Point(20, 20),
-  'left',
-  'red'
-);
+// const snake3 = new Snake(
+//   { f: 'left', h: 'right', t: 'up', g: 'down' },
+//   new Point(20, 20),
+//   'left',
+//   'red'
+// );
 
-const snake4 = new Snake(
-  { j: 'left', l: 'right', i: 'up', k: 'down' },
-  new Point(5, 5),
-  'left',
-  'pink'
-);
+// const snake4 = new Snake(
+//   { j: 'left', l: 'right', i: 'up', k: 'down' },
+//   new Point(5, 5),
+//   'left',
+//   'pink'
+// );
 
-const game = new Game([snake1, snake2, snake3, snake4]);
+const game = new Game([snake1, snake2]);
 game.play();

@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+ul {
+  font-family: 'Roboto', sans-serif;
+}
